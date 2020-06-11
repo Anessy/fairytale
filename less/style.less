@@ -1,0 +1,304 @@
+@font-face {
+  font-family: 'EIisabethische';
+  src: url('../fonts/EIisabethische.eot');
+  src: url('../fonts/EIisabethische.eot') format('embedded-opentype'), url('../fonts/EIisabethische.woff2') format('woff2'), url('../fonts/EIisabethische.woff') format('woff'), url('../fonts/EIisabethische.ttf') format('truetype'), url('../fonts/EIisabethische.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Super';
+  src: url('../books/common/fonts/SuperMario3DWorld.eot');
+  src: url('../books/common/SuperMario3DWorld.eot?#iefix') format('embedded-opentype'),
+      url('../books/common/fonts/SuperMario3DWorld.woff2') format('woff2'),
+      url('../books/common/fonts/SuperMario3DWorld.woff') format('woff'),
+      url('../books/common/fonts/SuperMario3DWorld.ttf') format('truetype'),
+      url('../books/common/fonts/SuperMario3DWorld.svg#SuperMario3DWorld') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+html,
+body {
+  height: 100%;
+}
+.big_container {
+  min-height: 100vh;
+}
+h1 {
+  font-family: 'Super','EIisabethische', sans-serif;
+  font-size: 3.5rem;
+}
+h2 {
+  font-family: 'Super','EIisabethische', sans-serif;
+  font-size: 2rem;
+}
+a:hover {
+  text-decoration: none;
+}
+button:focus {
+  outline: none;
+}
+.name-of-section {
+  margin-bottom: 4rem;
+}
+
+.first-page {
+  background: url(../img/bgFirstPage.jpg) center no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  position: relative;
+}
+.first-page .name-on-first-page {
+  padding-top: 15%;
+  color: #020200;
+  text-shadow: 0px 0px 8px rgb(252, 248, 3);
+  text-align: center;
+}
+.first-page .scene {
+  position: absolute;
+}
+.first-page .scene .b1 {
+  -webkit-transform: translate3d(70vw, 0, 0);
+          transform: translate3d(70vw, 0, 0);
+}
+.first-page .scene .b2 {
+  -webkit-transform: translate3d(0rem, 016vh, 0);
+          transform: translate3d(0rem, 016vh, 0);
+}
+.first-page .scene .b3 {
+  -webkit-transform: translate3d(20vw, -35vh, 0);
+          transform: translate3d(20vw, -35vh, 0);
+}
+.first-page .scene .b4 {
+  -webkit-transform: translate3d(80vw, -40vh, 0);
+          transform: translate3d(80vw, -40vh, 0);
+}
+.first-page .scene .b5 {
+  -webkit-transform: translate3d(30vw, 10vh, 0);
+          transform: translate3d(30vw, 10vh, 0);
+}
+.first-page .scene .b9 {
+  -webkit-transform: translate3d(20vw, 40vh, 0);
+          transform: translate3d(20vw, 40vh, 0);
+}
+.first-page .scene .b10 {
+  -webkit-transform: translate3d(40vw, 30vh, 0);
+          transform: translate3d(40vw, 30vh, 0);
+}
+.first-page .scene .b11 {
+  -webkit-transform: translate3d(60vw,0, 0);
+          transform: translate3d(60vw,0, 0);
+}
+.first-page .scene .b12 {
+  -webkit-transform: translate3d(20vw,0, 0);
+          transform: translate3d(20vw,0, 0);
+}
+.first-page .scene .b13 {
+  -webkit-transform: translate3d(50vw, 20vh, 0);
+          transform: translate3d(50vw, 20vh, 0);
+}
+.first-page .menu {
+  position: absolute;
+  background-color: rgba(253, 253, 252, 0.5);
+  border-radius: 10px;
+  padding-left: 0.5rem;
+  margin-top: -10rem;
+}
+.first-page .menu .name-in-menu {
+  position: relative;
+  padding-left: 1rem;
+  color: rgba(7, 7, 7, 0.2);
+  font-size: 2rem;
+  text-shadow: 1px 1px 1px rgba(253, 253, 252, 0.9);
+}
+.first-page .menu .name-in-menu:hover {
+  padding-left: 2.5rem;
+  color: #ff7300;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.first-page .menu .name-in-menu:hover img {
+  padding-left: 0.5rem;
+}
+.first-page .for-parents {
+  position: absolute;
+  right: 1rem;
+  bottom: 0;
+  color: white;
+}
+.first-page .for-parents:hover {
+  text-shadow: 1px 1px 1px black;
+  cursor: pointer;
+}
+.big-modal {
+  display: none;
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.big-modal .modal-window-for-parents {
+  position: absolute;
+  width: 400px;
+  font-family: sans-serif;
+  border: 1px solid black;
+  padding: 4rem 2rem 2rem 2rem;
+  left: 35%;
+  top: 10%;
+  background-color: white;
+}
+.big-modal .close {
+  position: absolute;
+  top: 1rem;
+  right: 0.5rem;
+}
+.second-page {
+  min-height: 100vh;
+  background: url(../img/bgFirstPage.png) center;
+  background-size: cover;
+  padding: 6rem 0;
+  font-family: 'Super', Arial, Helvetica, sans-serif;
+}
+.second-page .catalog .catalog-card {
+  border: 1px solid #ffee00;
+  background-color: rgba(251, 255, 0, 0.5);
+  padding: 1rem 1rem 2rem 1rem;
+  text-align: center;
+  margin: 0rem 0rem 2rem 0rem;
+}
+.second-page .catalog .catalog-card img {
+  width: 100%;
+  margin-bottom: 3rem;
+  -webkit-box-shadow: 3px 3px 1px grey;
+          box-shadow: 3px 3px 1px grey;
+}
+.second-page .catalog .catalog-card a {
+  vertical-align: bottom;
+  padding: 1rem 2rem;
+  border: 1px solid #ffee00;
+  border-radius: 5px;
+  color: black;
+  text-transform: uppercase;
+  background-color: honeydew;
+  -webkit-box-shadow: 1px 1px 1px #fcf04c;
+          box-shadow: 1px 1px 1px #fcf04c;
+  font-size: 1.5rem;
+}
+.second-page .catalog .catalog-card a:hover {
+  background-color: #fafafa;
+  text-shadow: 1px 1px 1px rgb(67, 252, 144);
+}
+
+.open-form {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: white;
+  border: 1px solid grey;
+  border-radius: 10px;
+  box-shadow: 1px 1px 3px black;
+  font-family: 'Super';
+  font-size: 18px;
+}
+
+.open-form:active {
+  background-color: red;
+  color: white;
+}
+
+.send-form .form-bg{
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  min-height: 100vw;
+  position: absolute;
+  top: 0; 
+  left: 0;
+}
+
+.wrap{
+  position:absolute;
+  width: 400px;
+  left: 35%;
+  top: 10%;
+  padding:30px;
+  background: white;
+  text-align:center;
+  box-shadow: -1px -1px 4px black;
+  background: url(../img/butterfliesForModal.jpg) center no-repeat;
+  background-size: cover;
+}
+
+.wrap form{
+  padding:40px 20px 20px 20px;
+  border: solid 2px rgb(1, 129, 23);
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.wrap form p {
+  position: absolute;
+  margin-top: -0.7rem;
+  margin-left: 1rem;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 0rem 0.5rem;
+  font-size: 13px;
+  color: rgb(117, 117, 117);
+}
+.wrap form input {
+  width: 100%;
+  margin-bottom: 1.5rem;
+  padding: 0.5rem 0.8rem;
+  box-shadow: 1px 1px 3px black;
+  border: 1px solid grey;
+  border-radius: 10px;
+}
+.wrap textarea {
+  width: 100%;
+  box-shadow: 1px 1px 3px black;
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 0.5rem 0.8rem;
+}
+.wrap textarea:focus {
+  outline: none;
+}
+.wrap form input:focus {
+  outline: none;
+}
+.wrap form:after{
+  position:absolute;
+  content:'Форма для повідомлення';
+  font-family: 'Super';
+  text-shadow: 1px 1px 1px green;
+  font-size:16px;
+  top:15px;
+  left:35px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding:3px;
+}
+
+.wrap .send {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: white;
+  border: 1px solid grey;
+  border-radius: 10px;
+  box-shadow: 1px 1px 3px black;
+  font-family: 'Super';
+  
+}
+
+.wrap .send:active {
+  background-color: red;
+  color: white;
+}
+
+.wrap .close-form {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.1rem;
+  border: none;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.8);
+}

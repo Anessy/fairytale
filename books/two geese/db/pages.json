@@ -1,0 +1,79 @@
+[
+  {
+    "id": "fb01",
+    "name": "item1",
+    "description": "Жили у бабусі <br>Два веселі гуси.",
+    "image": "img/page1.jpg",
+    "number": "1"
+  },
+  {
+    "id": "fb02",
+    "name": "item2",
+    "description": "Один - сірий, другий - білий, <br> Два веселі гуси.",
+    "image": "img/page2.jpg",
+    "number": "2"
+  },
+  {
+    "id": "fb03",
+    "name": "item3",
+    "description": "Мірялись удвійко <br>В кого довша шийка.",
+    "image": "img/page3.jpg",
+    "number": "3"
+  },
+  {
+    "id": "fb04",
+    "name": "item4",
+    "description": "Один - сірий, другий - білий, <br>В кого довша шийка?",
+    "image": "img/page4.jpg",
+    "number": "4"
+  },
+  {
+    "id": "fb05",
+    "name": "item5",
+    "description": "Мили гуси лапки <br> У чистій канавці.",
+    "image": "img/page5.jpg",
+    "number": "5"
+  },
+  {
+    "id": "fb06",
+    "name": "item6",
+    "description": "Один - сірий, другий - білий <br>Сховались від бабці!",
+    "image": "img/page6.jpg",
+    "number": "6"
+  },
+  {
+    "id": "fb07",
+    "name": "item7",
+    "description": "Ось кричить бабуся: <br> - Ой, пропали гуси!",
+    "image": "img/page7.jpg",
+    "number": "7"
+  },
+  {
+    "id": "fb08",
+    "name": "item8",
+    "description": "Один - сірий, другий - білий, <br>Гуси мої, гуси!",
+    "image": "img/page8.jpg",
+    "number": "8"
+  },
+  {
+    "id": "fb09",
+    "name": "item9",
+    "description": "Вибігали гуси,<br>Кланялись бабусі.",
+    "image": "img/page9.jpg",
+    "number": "9"
+  },
+  {
+    "id": "fb10",
+    "name": "item10",
+    "description": "Один - сірий, другий - білий,<br>Кланялись бабусі!",
+    "image": "img/page10.jpg",
+    "number": "10"
+  }, 
+  {
+    "id": "fb11",
+    "name": "ite11",
+    "description": "Тішиться бабуся, <br>Що знайшлися гуси. <br> Один - сірий, другий - білий, <br> Гуси, її гуси!",
+    "image": "img/page2.jpg",
+    "number": "11"
+  }
+]

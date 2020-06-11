@@ -1,0 +1,114 @@
+[
+  {
+    "id": "fb01",
+    "name": "item1",
+    "description": "Мишка сир несе кудись. <br> Ворон просить: ''Поділись!'' <br> Мишка згодилась: ''Ходім! <br> Сир один одна не з'їм!''",
+    "image": "img/page1.jpg",
+    "number": "1"
+  },
+  {
+    "id": "fb02",
+    "name": "item2",
+    "description": "Один сир",
+    "image": "img/page2.jpg",
+    "number": "2"
+  },
+  {
+    "id": "fb03",
+    "name": "item3",
+    "description": "''Звідки квіти? Хто приніс?'' <br> Враз підняв собака хвіст. <br> ''Ну а раптом то мені <br> Два горщечки на вікні?''",
+    "image": "img/page3.jpg",
+    "number": "3"
+  },
+  {
+    "id": "fb04",
+    "name": "item4",
+    "description": "Дві квіточки.",
+    "image": "img/page4.jpg",
+    "number": "4"
+  },
+  {
+    "id": "fb05",
+    "name": "item5",
+    "description": "Лісом лисонька біжить, <br> Раптом бачить, щось лежить. <br> Придивилася здаля: <br> Три банани звідкіля?",
+    "image": "img/page5.jpg",
+    "number": "5"
+  },
+  {
+    "id": "fb06",
+    "name": "item6",
+    "description": "Три банани.",
+    "image": "img/page6.jpg",
+    "number": "6"
+  },
+  {
+    "id": "fb07",
+    "name": "item7",
+    "description": "У вовка тата вовченята - <br> Нерозчесані хлоп'ята <br> Тож несе він їм оці <br> Аж чотири гребніці",
+    "image": "img/page7.jpg",
+    "number": "7"
+  },
+  {
+    "id": "fb08",
+    "name": "item8",
+    "description": "Чотири гребінці.",
+    "image": "img/page8.jpg",
+    "number": "8"
+  },
+  {
+    "id": "fb09",
+    "name": "item9",
+    "description": "Ой на гілці ворон кряче - <br> Щось цікаве птаха бачить! <br> Без ниток, без вузликів <br> П'ять кругленьких гудзиків!",
+    "image": "img/page9.jpg",
+    "number": "9"
+  },
+  {
+    "id": "fb10",
+    "name": "item10",
+    "description": "П'ять гудзиків.",
+    "image": "img/page10.jpg",
+    "number": "10"
+  },
+  {
+    "id": "fb11",
+    "name": "item11",
+    "description": "Плаче жаба на болоті, <br> Що зубів не має в роті! <br> Бо знайомий щупачок <br> Їй приніс шість щіточок.",
+    "image": "img/page11.jpg",
+    "number": "11"
+  },
+  {
+    "id": "fb12",
+    "name": "item12",
+    "description": "Шість щіточок.",
+    "image": "img/page12.jpg",
+    "number": "12"
+  }, 
+  {
+    "id": "fb13",
+    "name": "item13",
+    "description": "Думу думає віслюк: <br> ''Ноги є, немає рук! <br> Віднести як до млина <br> Цілих сім мішків зерна?''",
+    "image": "img/page13.jpg",
+    "number": "13"
+  },
+  {
+    "id": "fb14",
+    "name": "item14",
+    "description": "Сім мішків.",
+    "image": "img/page14.jpg",
+    "number": "14"
+  },
+  {
+    "id": "fb15",
+    "name": "item15",
+    "description": "Порахуймо без зупинок: <br> Скільки виросло морквинок? <br> А от зайчик точно знає! <br> ''Вісім!'' - жваво промовляє.",
+    "image": "img/page15.jpg",
+    "number": "15"
+  },
+  {
+    "id": "fb16",
+    "name": "item16",
+    "description": "Вісім морквинок",
+    "image": "img/page16.jpg",
+    "number": "16"
+  }
+]

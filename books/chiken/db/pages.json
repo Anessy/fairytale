@@ -1,0 +1,65 @@
+[
+  {
+    "id": "fb01",
+    "name": "item1",
+    "description": "Жили були дід та баба.",
+    "image": "img/pageOne.jpg",
+    "number": "1"
+  },
+  {
+    "id": "fb02",
+    "name": "item2",
+    "description": "І була у них курочка Ряба.",
+    "image": "img/pageTwo.jpg",
+    "number": "2"
+  },
+  {
+    "id": "fb03",
+    "name": "item3",
+    "description": "Знесла якось курочка яєчко.",
+    "image": "img/pageThree.jpg",
+    "number": "3"
+  },
+  {
+    "id": "fb04",
+    "name": "item4",
+    "description": "Дід з бабою зраділи - буде чим повечеряти!",
+    "image": "img/pageFour.jpg",
+    "number": "4"
+  },
+  {
+    "id": "fb05",
+    "name": "item5",
+    "description": "Дід бив - не розбив.",
+    "image": "img/pageFive.jpg",
+    "number": "5"
+  },
+  {
+    "id": "fb06",
+    "name": "item6",
+    "description": "Баба била - не розбила.",
+    "image": "img/pageSix.jpg",
+    "number": "6"
+  },
+  {
+    "id": "fb07",
+    "name": "item7",
+    "description": "Бігла мишка, хвостиком махнула - яєчко впало та й розбилось!",
+    "image": "img/pageSeven.jpg",
+    "number": "7"
+  },
+  {
+    "id": "fb08",
+    "name": "item8",
+    "description": "Дід плаче, баба плаче, а курочка кудкудаче: <br> - Не плач, діду, не плачте, бабо! Я знеcу вам нове яєчко. І не просте, а золоте!",
+    "image": "img/pageEight.jpg",
+    "number": "8"
+  },
+  {
+    "id": "fb09",
+    "name": "item9",
+    "description": "Дякуємо за читання!",
+    "image": "img/pageNine.jpg",
+    "number": "9"
+  }
+]
