@@ -1,0 +1,174 @@
+[
+  {
+    "name": "Курочка Ряба",
+    "autor": "народна казка",
+    "publishing": "Пегас",
+    "description": "none",
+    "image": "img/main/chikenRiaba.jpg",
+    "link": "./books/chiken/index.html",
+    "number": "1"
+  },
+  {
+    "name": "Два гуси",
+    "autor": "народна казка",
+    "publishing": "Пегас",
+    "description": "none",
+    "image": "./img/main/twoGeese.jpg",
+    "link": "./books/two geese/index.html",
+    "number": "2"
+  },
+  {
+    "name": "Колобок",
+    "autor": "народна казка",
+    "publishing": "Пегас",
+    "description": "none",
+    "image": "./img/main/kolobok.jpg",
+    "link": "./books/kolobok/index.html",
+    "number": "3"
+  },
+  {
+    "name": "Ходить гарбуз",
+    "autor": "народна казка",
+    "publishing": "Пегас",
+    "description": "none",
+    "image": "./img/main/garbuz.jpg",
+    "link": "./books/garbuz/index.html",
+    "number": "4"
+  },
+  {
+    "name": "Колосок",
+    "autor": "народна казка",
+    "publishing": "Пегас",
+    "description": "none",
+    "image": "./img/main/kolosok.jpg",
+    "link": "./books/kolosok/index.html",
+    "number": "5"
+  },
+  {
+    "name": "Козел Мефодiй",
+    "autor": "народна казка",
+    "publishing": "Пегас",
+    "description": "none",
+    "image": "./img/main/kozelMefidiy.jpg",
+    "link": "./books/kozelMefidiy/index.html",
+    "number": "6"
+  },
+  {
+    "name": "Марiйка та ведмiдь",
+    "autor": "народна казка",
+    "publishing": "Пегас",
+    "description": "none",
+    "image": "./img/main/mariykaTaVedmid.jpg",
+    "link": "./books/MashaVedmid/index.html",
+    "number": "7"
+  },
+  {
+    "name": "Пан Коцький",
+    "autor": "народна казка",
+    "publishing": "Пегас",
+    "description": "none",
+    "image": "./img/main/panKockui.jpg",
+    "link": "./books/panKockiy/index.html",
+    "number": "8"
+  },
+  {
+    "name": "Вчимося рахувати",
+    "autor": "народна казка",
+    "publishing": "Пегас",
+    "description": "none",
+    "image": "./img/main/rahuvati.jpg",
+    "link": "./books/vchimosRahuvatu/index.html",
+    "number": "9"
+  },
+  {
+    "name": "Сiра шийка",
+    "autor": "народна казка",
+    "publishing": "Пегас",
+    "description": "none",
+    "image": "./img/main/siraShuika.jpg",
+    "link": "./books/siraShuika/index.html",
+    "number": "10"
+  },
+  {
+    "name": "Кораблик",
+    "autor": "Сутеєв",
+    "publishing": "казка.укр",
+    "description": "none",
+    "image": "./img/main/korablik.jpg",
+    "link": "./books/korablik-suteev/index.html",
+    "number": "11"
+  },
+  {
+    "name": "Живi гриби",
+    "autor": "Сутеєв",
+    "publishing": "казка.укр",
+    "description": "none",
+    "image": "./img/main/jiviGribu-suteev.jpg",
+    "link": "./books/jiviGrubu-suteev/index.html",
+    "number": "12"
+  },
+  {
+    "name": "Мiшок яблук",
+    "autor": "Сутеєв",
+    "publishing": "казка.укр",
+    "description": "none",
+    "image": "./img/main/mishokYablyk-suteev.jpg",
+    "link": "./books/mishokYablyk-suteev/index.html",
+    "number": "13"
+  },
+  {
+    "name": "Дядько Мишко",
+    "autor": "Сутеєв",
+    "publishing": "казка.укр",
+    "description": "none",
+    "image": "./img/main/didiaMisha.jpg",
+    "link": "./books/diadkoMisha/index.html",
+    "number": "14"
+  },
+  {
+    "name": "Бобків день",
+    "autor": "Сутеєв",
+    "publishing": "казка.укр",
+    "description": "none",
+    "image": "./img/main/bobkivDen.jpg",
+    "link": "./books/bobkivDen-suteev/index.html",
+    "number": "15"
+  },
+  {
+    "name": "Хто вміє дружити",
+    "autor": "Т. Золотухіна",
+    "publishing": "казка.укр",
+    "description": "none",
+    "image": "./img/main/htoVmieDrujutu.jpg",
+    "link": "./books/htoVmieDryjutu/index.html",
+    "number": "16"
+  },
+  {
+    "name": "І так згодиться",
+    "autor": "Т. Папорова",
+    "publishing": "казка.укр",
+    "description": "none",
+    "image": "./img/main/iTakZgoditsia.jpg",
+    "link": "./books/iTakZgodutsia/index.html",
+    "number": "17"
+  },
+  {
+    "name": "Вчимо овочі",
+    "autor": "Т. Маршалова",
+    "publishing": "Пегас",
+    "description": "none",
+    "image": "./img/main/ovochi.jpg",
+    "link": "./books/ovochi/index.html",
+    "number": "18"
+  },
+  {
+    "name": "Кораблик",
+    "autor": "В. Сутеєв",
+    "publishing": "казка.укр",
+    "description": "none",
+    "image": "./img/main/korablik.jpg",
+    "link": "./books/korablik/index.html",
+    "number": "18"
+  }
+  
+]
