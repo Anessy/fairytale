@@ -61,7 +61,7 @@ function forPageList(book) {
     pages[0].style.display = 'block';
     pages[0].style.opacity = '1';
     arrowNext.style.display = 'block';
-    
+    displaySize(book);
   });
   
 };
@@ -126,6 +126,23 @@ arrowPrew.addEventListener('click', () => {
   
 });
 
+function displaySize(book){
+  let clientDisplay = document.documentElement.clientWidth;
+  let pages = book.querySelectorAll('.page');
+  if (clientDisplay > 993){
+    pages.forEach((element,index)=>{
+      element.classList.add('page-xl')
+    })
+  } else if (clientDisplay < 993 && clientDisplay > 577) {
+    pages.forEach((element,index)=>{
+      element.classList.add('page-mobile')
+    })
+  } else if(clientDisplay < 577){
+    pages.forEach((element,index)=>{
+      element.classList.add('page-sm')
+    })
+  }
+};
 
 function init() {
   getData('./db/pages.json').then(function(data){ // ф-ция получения данных по запросу. then вызывает ф-цию после получения данных. data - полученные данные (массив)
@@ -133,7 +150,7 @@ function init() {
   }); 
   
   forPageList(book);
-
+  
 };
  
 init();
