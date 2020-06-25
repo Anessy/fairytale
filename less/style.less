@@ -302,3 +302,44 @@ button:focus {
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.8);
 }
+
+.game-button {
+  margin-bottom: 5rem;
+  font-size: 2rem;
+  button {
+    padding: 0rem 1rem;
+    border: 2px solid #ffee00;
+    border-radius: 5px;
+    color: black;
+    text-transform: uppercase;
+    background-color: honeydew;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    animation-name: game;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+    animation-delay: 1s;
+    animation-direction: reverse;
+    animation-iteration-count: infinite;
+    a {
+      color: black;
+    }
+  }
+  a:hover {
+    color: red;
+  }
+
+}
+
+@keyframes game{
+0% {border: 2px solid #ffee00;}
+10% {border: 2px solid #ffa600;}
+20% {border: 2px solid #ff8800;}
+30% {border: 2px solid #ff7300;}
+40% {border: 2px solid #ff3c00;}
+50% {border: 2px solid #ff0000;}
+60% {border: 2px solid #ff3c00;}
+70% {border: 2px solid #ff7300;}
+80% {border: 2px solid #ff8800;}
+90% {border: 2px solid #ffa600;}
+100% {border: 2px solid #ffee00;}
+}

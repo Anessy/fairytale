@@ -291,3 +291,105 @@ button:focus {
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.8);
 }
+.game-button {
+  margin-bottom: 5rem;
+  font-size: 2rem;
+}
+.game-button button {
+  padding: 0rem 1rem;
+  border: 2px solid #ffee00;
+  border-radius: 5px;
+  color: black;
+  text-transform: uppercase;
+  background-color: honeydew;
+  -webkit-box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+          box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+  -webkit-animation-name: game;
+          animation-name: game;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+  -webkit-animation-direction: reverse;
+          animation-direction: reverse;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+.game-button button a {
+  color: black;
+}
+.game-button a:hover {
+  color: red;
+}
+@-webkit-keyframes game {
+  0% {
+    border: 2px solid #ffee00;
+  }
+  10% {
+    border: 2px solid #ffa600;
+  }
+  20% {
+    border: 2px solid #ff8800;
+  }
+  30% {
+    border: 2px solid #ff7300;
+  }
+  40% {
+    border: 2px solid #ff3c00;
+  }
+  50% {
+    border: 2px solid #ff0000;
+  }
+  60% {
+    border: 2px solid #ff3c00;
+  }
+  70% {
+    border: 2px solid #ff7300;
+  }
+  80% {
+    border: 2px solid #ff8800;
+  }
+  90% {
+    border: 2px solid #ffa600;
+  }
+  100% {
+    border: 2px solid #ffee00;
+  }
+}
+@keyframes game {
+  0% {
+    border: 2px solid #ffee00;
+  }
+  10% {
+    border: 2px solid #ffa600;
+  }
+  20% {
+    border: 2px solid #ff8800;
+  }
+  30% {
+    border: 2px solid #ff7300;
+  }
+  40% {
+    border: 2px solid #ff3c00;
+  }
+  50% {
+    border: 2px solid #ff0000;
+  }
+  60% {
+    border: 2px solid #ff3c00;
+  }
+  70% {
+    border: 2px solid #ff7300;
+  }
+  80% {
+    border: 2px solid #ff8800;
+  }
+  90% {
+    border: 2px solid #ffa600;
+  }
+  100% {
+    border: 2px solid #ffee00;
+  }
+}
