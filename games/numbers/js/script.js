@@ -19,6 +19,7 @@ function createVarios(varios) { // ф-ция создания карточек �
 
 
   const inVarios = `
+          <div class="varius">
             <div class="row">
               <div class="col">
                 <div class="numder">
@@ -34,6 +35,7 @@ function createVarios(varios) { // ф-ция создания карточек �
                 </div>
               </div>
             </div>
+          </div> 
   `;
 
   numbers.insertAdjacentHTML('beforeend', inVarios); // метод для вставки элементов на страницу
@@ -48,17 +50,77 @@ function createVarios(varios) { // ф-ция создания карточек �
     });
     
   });
+
+  const varius = document.querySelectorAll('.varius');
+  varius[0].style.display = 'block';
+  for(let i = 1; i < varius.length; i++){
+    varius[i].style.display = 'none';
+  }
   
 };
+// ======================= листание страниц ==============================
+function prewNext(){ 
+  const arrowNext = document.querySelector('#nav-next'); //  стрелки вправо-влево
+  const arrowPrew = document.querySelector('#nav-prew'); // стрелки вправо-влево
+  
 
+  arrowNext.addEventListener('click', () => {
+    let numbers = document.querySelector('.numbers');
+    let varius = numbers.querySelectorAll('.varius');
+    let question = numbers.querySelectorAll('.question-img');
+    let answer = numbers.querySelectorAll('.answer-img');
+    let i;
+  varius.forEach((element,index)=>{
+    if(element.style.display === 'block'){
+      element.style.display = 'none';
+      i = index;
+      arrowPrew.style.display = 'block';
+    }
+  });
+  varius[i+1].style.display = 'block';
+  if (i === varius.length-2){
+    arrowNext.style.display = 'none';
+  };
+  question[i].style.display = 'block';
+  answer[i].style.display = 'none';
+});
 
+arrowPrew.addEventListener('click', () => {
+  let numbers = document.querySelector('.numbers');
+  let varius = numbers.querySelectorAll('.varius');
+  let question = numbers.querySelectorAll('.question-img');
+  let answer = numbers.querySelectorAll('.answer-img');
+  let i; 
+  varius.forEach((element, index) =>{
+    if (element.style.display === 'block') {
+        
+        element.style.display = 'none';
+        i = index;
+        if (index === 1) {
+          arrowPrew.style.display = 'none';
+        };
+        
+        if (index === varius.length - 1) {
+          arrowNext.style.display = 'block';
+        };
+        return i;
+    }; 
+  });
+  const visiblePrewPage = () => {
+    varius[i-1].style.display = 'block'; 
+  };
+  visiblePrewPage();
+  question[i].style.display = 'block';
+  answer[i].style.display = 'none';
+});
+};
 
 function init() {
   getData('./db/pages.json').then(function(data){ // ф-ция получения данных по запросу. then вызывает ф-цию после получения данных. data - полученные данные (массив)
   data.forEach(createVarios); // сработает столько раз, сколько элементов у полученного массива data (то есть, мы получаем 6 карточек ресторанов)
   }); 
   
-  
+  prewNext();
 };
  
 init();

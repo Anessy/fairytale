@@ -1,7 +1,32 @@
+a:hover {
+  outline: none;
+  text-decoration: none;
+}
 .big-container {
   min-height: 100vh;
   background: url(../img/rabbitBG.png) center no-repeat;
   background-size: 100vh;
+}
+.big-container h1 {
+  font-size: 3rem;
+}
+.prew,
+.next {
+  position: absolute;
+  top: 40vh;
+  z-index: 999;
+}
+.prew img,
+.next img {
+  width: 8vw;
+  opacity: 0.5;
+}
+.prew img:hover,
+.next img:hover {
+  opacity: 1;
+}
+.next {
+  left: 90vw;
 }
 .small-container {
   min-height: 100vh;
@@ -9,17 +34,17 @@
 }
 .numder {
   border: 1px solid black;
-  margin: 3rem;
+  margin: 0;
   background-color: rgba(255, 255, 255, 0.7);
 }
 .question-img {
   border: 1px solid black;
-  margin: 3rem;
+  margin: 0;
   background-color: rgba(255, 255, 255, 0.7);
 }
 .answer-img {
   border: 1px solid black;
-  margin: 3rem;
+  margin: 0;
   background-color: rgba(255, 255, 255, 0.7);
 }
 .question-img:hover {
