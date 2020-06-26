@@ -1,3 +1,5 @@
+let allPages; // количество всех страниц в игре
+
 const getData = async function(url) { // функция, которая делает запрос на сервер. async - делает ее асинхронной
   const response = await fetch(url); // получили данные в ответ на запрос
   if  (!response.ok) { // проверка, был ли запрос удачным
@@ -55,7 +57,18 @@ function createVarios(varios) { // ф-ция создания карточек �
   varius[0].style.display = 'block';
   for(let i = 1; i < varius.length; i++){
     varius[i].style.display = 'none';
-  }
+  };
+  
+  function pageNumbers(){ // индекс страницы
+    let divForPagesNumbers = document.querySelector('.pageNumbers');
+    const pageNumber = `
+    <div class="page" style="margin-bottom: 2rem; margin-right: 10px; border-width: 1px; border-style: solid; border-color: green; width: 10px; height: 10px; background-color: aquamarine; border-radius: 50%;">
+    </div> 
+  `;
+    divForPagesNumbers.insertAdjacentHTML('beforeend', pageNumber); // метод для вставки элементов на страницу
+  };
+
+  pageNumbers();
   
 };
 // ======================= листание страниц ==============================
@@ -69,6 +82,7 @@ function prewNext(){
     let varius = numbers.querySelectorAll('.varius');
     let question = numbers.querySelectorAll('.question-img');
     let answer = numbers.querySelectorAll('.answer-img');
+    let pages = document.querySelectorAll('.page');
     let i;
   varius.forEach((element,index)=>{
     if(element.style.display === 'block'){
@@ -78,6 +92,8 @@ function prewNext(){
     }
   });
   varius[i+1].style.display = 'block';
+  pages[i+1].style.backgroundColor = 'red';
+  pages[i].style.backgroundColor = '';
   if (i === varius.length-2){
     arrowNext.style.display = 'none';
   };
@@ -115,12 +131,15 @@ arrowPrew.addEventListener('click', () => {
 });
 };
 
+
+
 function init() {
-  getData('./db/pages.json').then(function(data){ // ф-ция получения данных по запросу. then вызывает ф-цию после получения данных. data - полученные данные (массив)
-  data.forEach(createVarios); // сработает столько раз, сколько элементов у полученного массива data (то есть, мы получаем 6 карточек ресторанов)
+  getData('./db/pages1to5.json').then(function(data){ // ф-ция получения данных по запросу. then вызывает ф-цию после получения данных. data - полученные данные (массив)
+  data.forEach(createVarios); // сработает столько раз, сколько элементов у полученного массива data 
   }); 
   
   prewNext();
+  
 };
  
 init();
