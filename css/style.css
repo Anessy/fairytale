@@ -320,8 +320,12 @@ button:focus {
 .game-button button a {
   color: black;
 }
-.game-button a:hover {
-  color: red;
+.game-button button:hover {
+  -webkit-box-shadow: 2px 2px 5px #ffa600;
+          box-shadow: 2px 2px 5px #ffa600;
+}
+.game-button img {
+  width: 100%;
 }
 @-webkit-keyframes game {
   0% {

@@ -37,8 +37,9 @@ button:focus {
   outline: none;
 }
 .page-bg {
-  background: url(../img/panda.png) center no-repeat;
-  background-size: cover;
+  background-color: rgba(255, 255, 255, 0.5);
+  min-height: 100vh;
+  padding: 2rem;
 }
 .page {
   background-color: rgba(255, 255, 255, 0.8);
@@ -46,22 +47,32 @@ button:focus {
   margin: 2rem;
   border: 1px solid white;
 }
-.page .for-btn {
-  margin: 2rem;
-  padding: 15px 20px;
-  border: 1px solid black;
-  border-radius: 5px;
-  font-family: 'Super', 'EIisabethische', sans-serif;
-  font-size: 1.2rem;
-  color: black;
-  background: -webkit-gradient(linear, left top, left bottom, from(#e4e664), to(#98e591));
-  background: linear-gradient(#e4e664, #98e591);
-  -webkit-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
-          box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+ul {
+  font-family: 'Super', sans-serif;
+  font-size: 1.5rem;
 }
-.page h1 {
-  text-shadow: 2px 2px 3px rgba(18, 104, 1, 0.5);
+ul img {
+  width: 100%;
+}
+ul a {
+  color: black;
+}
+ul img:hover {
+  text-align: center;
+  font-size: 1.8rem;
+  background-color: rgba(210, 255, 7, 0.4);
+  border-radius: 10px;
+  -webkit-box-shadow: 1px 1px 3px black;
+          box-shadow: 1px 1px 3px black;
+}
+ul a:hover {
+  color: green;
 }
 .backToMainPage {
-  font-size: 3rem;
+  font-size: 2rem;
+  color: #800000;
+}
+.backToMainPage:hover {
+  color: #fc0505;
+  text-shadow: 2px 2px 5px black;
 }

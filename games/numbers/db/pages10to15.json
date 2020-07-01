@@ -1,0 +1,87 @@
+[
+  
+  {
+    "page": "1",
+    "number": "./img/k10.png",
+    "answer": "./img/10.png",
+    "whatNumber": "10"
+  },
+  {
+    "page": "2",
+    "number": "./img/f7.png",
+    "answer": "./img/7.png",
+    "whatNumber": "7"
+  },
+  {
+    "page": "3",
+    "number": "./img/b8.png",
+    "answer": "./img/8.png",
+    "whatNumber": "8"
+  },
+  {
+    "page": "4",
+    "number": "./img/m10.png",
+    "answer": "./img/10.png",
+    "whatNumber": "10"
+  },
+  {
+    "page": "5",
+    "number": "./img/ms9.png",
+    "answer": "./img/9.png",
+    "whatNumber": "9"
+  },
+  {
+    "page": "6",
+    "number": "./img/f8.png",
+    "answer": "./img/8.png",
+    "whatNumber": "8"
+  },
+  {
+    "page": "7",
+    "number": "./img/f9.png",
+    "answer": "./img/9.png",
+    "whatNumber": "9"
+  },
+  {
+    "page": "8",
+    "number": "./img/m7.png",
+    "answer": "./img/7.png",
+    "whatNumber": "7"
+  },
+  {
+    "page": "9",
+    "number": "./img/b9.png",
+    "answer": "./img/9.png",
+    "whatNumber": "9"
+  },
+  {
+    "page": "10",
+    "number": "./img/sq10.jpg",
+    "answer": "./img/10.png",
+    "whatNumber": "10"
+  },
+  {
+    "page": "11",
+    "number": "./img/sq11.jpg",
+    "answer": "./img/11.png",
+    "whatNumber": "11"
+  },
+  {
+    "page": "12",
+    "number": "./img/el10.jpg",
+    "answer": "./img/10.png",
+    "whatNumber": "10"
+  },
+  {
+    "page": "13",
+    "number": "./img/sq12.jpg",
+    "answer": "./img/12.png",
+    "whatNumber": "12"
+  },
+  {
+    "page": "11",
+    "number": "./img/win.png",
+    "answer": "./img/theEnd.png",
+    "whatNumber": "5"
+  }
+]

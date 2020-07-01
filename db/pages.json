@@ -162,12 +162,12 @@
     "number": "18"
   },
   {
-    "name": "Кораблик",
+    "name": "Зайчин кораблик",
     "autor": "В. Сутеєв",
     "publishing": "казка.укр",
     "description": "none",
-    "image": "./img/main/korablik.jpg",
-    "link": "./books/korablik/index.html",
+    "image": "./img/main/zaikin-korablik.jpg",
+    "link": "./books/zaikin-korablik/index.html",
     "number": "18"
   }
   

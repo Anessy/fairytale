@@ -154,6 +154,12 @@
     "number": "./img/ms5.png",
     "answer": "./img/5.png",
     "whatNumber": "5"
+  },
+  {
+    "page": "28",
+    "number": "./img/win.png",
+    "answer": "./img/theEnd.png",
+    "whatNumber": "5"
   }
   
 ]

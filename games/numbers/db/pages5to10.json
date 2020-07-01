@@ -1,118 +1,5 @@
 [
-  {
-    "page": "1",
-    "number": "./img/k1.png",
-    "answer": "./img/1.png",
-    "whatNumber": "1"
-  },
-  {
-    "page": "2",
-    "number": "./img/k2.png",
-    "answer": "./img/2.png",
-    "whatNumber": "2"
-  },
-  {
-    "page": "3",
-    "number": "./img/m1.png",
-    "answer": "./img/1.png",
-    "whatNumber": "1"
-  },
-  {
-    "page": "4",
-    "number": "./img/m2.png",
-    "answer": "./img/2.png",
-    "whatNumber": "2"
-  },
-  {
-    "page": "5",
-    "number": "./img/f2.png",
-    "answer": "./img/2.png",
-    "whatNumber": "2"
-  },
-  {
-    "page": "6",
-    "number": "./img/f3.png",
-    "answer": "./img/3.png",
-    "whatNumber": "3"
-  },
-  {
-    "page": "7",
-    "number": "./img/f32.png",
-    "answer": "./img/3.png",
-    "whatNumber": "3"
-  },
-  {
-    "page": "8",
-    "number": "./img/b1.png",
-    "answer": "./img/1.png",
-    "whatNumber": "1"
-  },
-  {
-    "page": "9",
-    "number": "./img/b2.png",
-    "answer": "./img/2.png",
-    "whatNumber": "2"
-  },
-  {
-    "page": "10",
-    "number": "./img/k3.png",
-    "answer": "./img/3.png",
-    "whatNumber": "3"
-  },
-  {
-    "page": "11",
-    "number": "./img/m3.png",
-    "answer": "./img/3.png",
-    "whatNumber": "3"
-  },
-  {
-    "page": "12",
-    "number": "./img/ms1.png",
-    "answer": "./img/1.png",
-    "whatNumber": "1"
-  },
-  {
-    "page": "13",
-    "number": "./img/ms2.png",
-    "answer": "./img/2.png",
-    "whatNumber": "2"
-  },
-  {
-    "page": "14",
-    "number": "./img/b3.png",
-    "answer": "./img/3.png",
-    "whatNumber": "3"
-  },
-  {
-    "page": "15",
-    "number": "./img/k4.png",
-    "answer": "./img/4.png",
-    "whatNumber": "4"
-  },
-  {
-    "page": "16",
-    "number": "./img/m4.png",
-    "answer": "./img/4.png",
-    "whatNumber": "4"
-  },
-  {
-    "page": "17",
-    "number": "./img/f1.png",
-    "answer": "./img/1.png",
-    "whatNumber": "1"
-  },
-  {
-    "page": "18",
-    "number": "./img/ms3.png",
-    "answer": "./img/3.png",
-    "whatNumber": "3"
-  },
-  {
-    "page": "19",
-    "number": "./img/f4.png",
-    "answer": "./img/4.png",
-    "whatNumber": "4"
-  },
+  
   {
     "page": "20",
     "number": "./img/k5.png",
@@ -292,8 +179,11 @@
     "number": "./img/b9.png",
     "answer": "./img/9.png",
     "whatNumber": "9"
+  },
+  {
+    "page": "28",
+    "number": "./img/win.png",
+    "answer": "./img/theEnd.png",
+    "whatNumber": "5"
   }
-  
-  
-  
 ]
