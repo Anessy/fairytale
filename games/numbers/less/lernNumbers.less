@@ -1,0 +1,124 @@
+a:hover{
+  outline: none;
+  text-decoration: none;
+}
+
+.big-container {
+  min-height: 100vh;
+  background: url(../../img/numbersBG.jpg) center no-repeat;
+  background-size: cover;
+  h1 {
+    font-size: 3rem;
+  }
+}
+.prew, .next{
+  position: absolute;
+  top: 40vh;
+  z-index: 999;
+  img {
+    width: 8vw;
+    opacity: 0.9;
+  }
+  img:hover{
+    opacity: 1;
+  }
+}
+
+.next {
+  left: 90vw;
+}
+
+.numder {
+  border: 1px solid black;
+  margin: 0;
+  background-color: rgba(255, 255, 255, 1);
+  img {
+    width: 100%;
+  }
+}
+.question-img {
+  border: 1px solid black;
+  margin: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.answer-img {
+  border: 1px solid black;
+  margin: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.question-img:hover {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  background-color: rgba(221, 250, 168, 1);
+}
+
+.all {
+  img {
+    width: 100%;
+  }
+}
+.linkOfPage {
+  padding-top: 1rem;
+}
+
+.number1{
+  position: absolute;
+  opacity: 0;
+  animation-name: block, move1; // название анимации 
+  animation-duration: 5s; // продолжительность анимации 
+  animation-timing-function: linear; // ф-ция дфижения
+  animation-delay: 1s; // задержка
+  animation-iteration-count: 1; // кол-во повторов анимации
+  animation-fill-mode: forwards;
+}
+.number2{
+  position: absolute;
+  opacity: 0;
+  animation-name: move1;
+  animation-duration: 5s; // продолжительность анимации 
+  animation-timing-function: linear; // ф-ция дфижения
+  animation-delay: 7s; // задержка
+  animation-iteration-count: 1; // кол-во повторов анимации
+  animation-fill-mode: forwards;
+}
+.number3{
+  position: absolute;
+  opacity: 0;
+  animation-name: move1;
+  animation-duration: 5s; // продолжительность анимации 
+  animation-timing-function: linear; // ф-ция дфижения
+  animation-delay: 13s; // задержка
+  animation-iteration-count: 1; // кол-во повторов анимации
+  animation-fill-mode: forwards;
+}
+.number4{
+  opacity: 0;
+  animation-name: move2;
+  animation-duration: 5s; // продолжительность анимации 
+  animation-timing-function: linear; // ф-ция дфижения
+  animation-delay: 19s; // задержка
+  animation-iteration-count: 1; // кол-во повторов анимации
+  animation-fill-mode: forwards;
+}
+
+@keyframes move2 {
+  0%{opacity: 0;}
+  5%{opacity: 1;}
+  100%{opacity: 1;}
+}
+
+@keyframes move1 {
+  0%{opacity: 0;}
+  5%{opacity: 1;}
+  95%{opacity: 1;}
+  100%{opacity: 0;}
+}
+
+@keyframes block {
+0%{
+  display: none;
+}
+100%{
+  display: block;
+}
+}

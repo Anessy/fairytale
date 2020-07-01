@@ -1,0 +1,188 @@
+a:hover {
+  outline: none;
+  text-decoration: none;
+}
+.big-container {
+  min-height: 100vh;
+  background: url(../../img/numbersBG.jpg) center no-repeat;
+  background-size: cover;
+}
+.big-container h1 {
+  font-size: 3rem;
+}
+.prew,
+.next {
+  position: absolute;
+  top: 40vh;
+  z-index: 999;
+}
+.prew img,
+.next img {
+  width: 8vw;
+  opacity: 0.9;
+}
+.prew img:hover,
+.next img:hover {
+  opacity: 1;
+}
+.next {
+  left: 90vw;
+}
+.numder {
+  border: 1px solid black;
+  margin: 0;
+  background-color: #ffffff;
+}
+.numder img {
+  width: 100%;
+}
+.question-img {
+  border: 1px solid black;
+  margin: 0;
+  background-color: #ffffff;
+}
+.answer-img {
+  border: 1px solid black;
+  margin: 0;
+  background-color: #ffffff;
+}
+.question-img:hover {
+  -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+          box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  background-color: #ddfaa8;
+}
+.all img {
+  width: 100%;
+}
+.linkOfPage {
+  padding-top: 1rem;
+}
+.number1 {
+  position: absolute;
+  opacity: 0;
+  -webkit-animation-name: block, move1;
+          animation-name: block, move1;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.number2 {
+  position: absolute;
+  opacity: 0;
+  -webkit-animation-name: move1;
+          animation-name: move1;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-delay: 7s;
+          animation-delay: 7s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.number3 {
+  position: absolute;
+  opacity: 0;
+  -webkit-animation-name: move1;
+          animation-name: move1;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-delay: 13s;
+          animation-delay: 13s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.number4 {
+  opacity: 0;
+  -webkit-animation-name: move2;
+          animation-name: move2;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-delay: 19s;
+          animation-delay: 19s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+@-webkit-keyframes move2 {
+  0% {
+    opacity: 0;
+  }
+  5% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes move2 {
+  0% {
+    opacity: 0;
+  }
+  5% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes move1 {
+  0% {
+    opacity: 0;
+  }
+  5% {
+    opacity: 1;
+  }
+  95% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes move1 {
+  0% {
+    opacity: 0;
+  }
+  5% {
+    opacity: 1;
+  }
+  95% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes block {
+  0% {
+    display: none;
+  }
+  100% {
+    display: block;
+  }
+}
+@keyframes block {
+  0% {
+    display: none;
+  }
+  100% {
+    display: block;
+  }
+}

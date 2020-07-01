@@ -1,0 +1,102 @@
+[
+  
+  {
+    "page": "1",
+    "number1": "./img/m1.png",
+    "number2": "./img/f1.png",
+    "number3": "./img/k1.png",
+    "number4": "./img/b1.png",
+    "answer": "./img/1n.jpg",
+    "whatNumber": "1"
+  },
+  {
+    "page": "2",
+    "number1": "./img/m2.png",
+    "number2": "./img/f2.png",
+    "number3": "./img/k2.png",
+    "number4": "./img/b2.png",
+    "answer": "./img/2n.jpg",
+    "whatNumber": "2"
+  },
+  {
+    "page": "3",
+    "number1": "./img/m3.png",
+    "number2": "./img/f3.png",
+    "number3": "./img/k3.png",
+    "number4": "./img/b3.png",
+    "answer": "./img/3n.jpg",
+    "whatNumber": "3"
+  },
+  {
+    "page": "4",
+    "number1": "./img/m4.png",
+    "number2": "./img/f4.png",
+    "number3": "./img/k4.png",
+    "number4": "./img/b4.png",
+    "answer": "./img/4n.jpg",
+    "whatNumber": "4"
+  },
+  {
+    "page": "5",
+    "number1": "./img/m5.png",
+    "number2": "./img/f5.png",
+    "number3": "./img/k5.png",
+    "number4": "./img/b5.png",
+    "answer": "./img/5n.jpg",
+    "whatNumber": "5"
+  },
+  {
+    "page": "6",
+    "number1": "./img/m6.png",
+    "number2": "./img/f6.png",
+    "number3": "./img/k6.png",
+    "number4": "./img/b6.png",
+    "answer": "./img/6n.jpg",
+    "whatNumber": "6"
+  },
+  {
+    "page": "7",
+    "number1": "./img/m7.png",
+    "number2": "./img/f7.png",
+    "number3": "./img/k7.png",
+    "number4": "./img/b7.png",
+    "answer": "./img/7n.jpg",
+    "whatNumber": "7"
+  },
+  {
+    "page": "8",
+    "number1": "./img/m8.png",
+    "number2": "./img/f8.png",
+    "number3": "./img/k8.png",
+    "number4": "./img/b8.png",
+    "answer": "./img/8n.jpg",
+    "whatNumber": "8"
+  },
+  {
+    "page": "9",
+    "number1": "./img/m9.png",
+    "number2": "./img/f9.png",
+    "number3": "./img/k9.png",
+    "number4": "./img/b9.png",
+    "answer": "./img/9n.jpg",
+    "whatNumber": "9"
+  },
+  {
+    "page": "10",
+    "number1": "./img/m10.png",
+    "number2": "./img/f10.png",
+    "number3": "./img/k10.png",
+    "number4": "./img/b10.png",
+    "answer": "./img/10n.jpg",
+    "whatNumber": "10"
+  },
+  {
+    "page": "1",
+    "number1": "./img/win.png",
+    "number2": "./img/win.png",
+    "number3": "./img/win.png",
+    "number4": "./img/win.png",
+    "answer": "./img/theEnd.png",
+    "whatNumber": "1"
+  }
+]
