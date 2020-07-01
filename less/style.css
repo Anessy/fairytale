@@ -349,3 +349,8 @@ button:focus {
     border: 2px solid #ffee00;
   }
 }
+@media (max-width: 991.98px) {
+  .scene {
+    display: none;
+  }
+}

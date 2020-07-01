@@ -53,6 +53,7 @@ ul {
 }
 ul img {
   width: 100%;
+  margin-bottom: 1rem;
 }
 ul a {
   color: black;
@@ -74,4 +75,19 @@ ul a:hover {
 .backToMainPage:hover {
   color: #fc0505;
   text-shadow: 2px 2px 5px black;
+}
+@media (max-width: 575.98px) {
+  .big_container {
+    padding: 0rem;
+  }
+  .page-bg {
+    padding: 0rem;
+  }
+  .page {
+    padding: 0rem;
+    margin: 0rem;
+  }
+  .backToMainPage {
+    margin-left: 2rem;
+  }
 }

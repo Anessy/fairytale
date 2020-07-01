@@ -4,8 +4,8 @@ a:hover {
 }
 .big-container {
   min-height: 100vh;
-  background: url(../img/rabbitBG.png) center no-repeat;
-  background-size: 100vh;
+  background: url(../../img/numbersBG.jpg) center no-repeat;
+  background-size: cover;
 }
 .big-container h1 {
   font-size: 3rem;
@@ -19,7 +19,7 @@ a:hover {
 .prew img,
 .next img {
   width: 8vw;
-  opacity: 0.5;
+  opacity: 0.9;
 }
 .prew img:hover,
 .next img:hover {
@@ -28,14 +28,10 @@ a:hover {
 .next {
   left: 90vw;
 }
-.small-container {
-  min-height: 100vh;
-  background-color: rgba(255, 255, 255, 0.7);
-}
 .numder {
   border: 1px solid black;
   margin: 0;
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: #ffffff;
 }
 .numder img {
   width: 100%;
@@ -43,17 +39,17 @@ a:hover {
 .question-img {
   border: 1px solid black;
   margin: 0;
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: #ffffff;
 }
 .answer-img {
   border: 1px solid black;
   margin: 0;
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: #ffffff;
 }
 .question-img:hover {
   -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
           box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
-  background-color: rgba(221, 250, 168, 0.7);
+  background-color: #ddfaa8;
 }
 .all img {
   width: 100%;

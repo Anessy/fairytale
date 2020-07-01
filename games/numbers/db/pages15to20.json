@@ -1,189 +1,118 @@
 [
   
   {
-    "page": "20",
-    "number": "./img/k5.png",
-    "answer": "./img/5.png",
-    "whatNumber": "5"
+    "page": "1",
+    "number": "./img/p15.jpg",
+    "answer": "./img/15.png",
+    "whatNumber": "15"
   },
   {
-    "page": "21",
-    "number": "./img/b4.png",
-    "answer": "./img/4.png",
-    "whatNumber": "4"
+    "page": "2",
+    "number": "./img/el16.jpg",
+    "answer": "./img/16.png",
+    "whatNumber": "16"
   },
   {
-    "page": "22",
-    "number": "./img/k6.png",
-    "answer": "./img/6.png",
-    "whatNumber": "6"
+    "page": "3",
+    "number": "./img/sq15.jpg",
+    "answer": "./img/15.png",
+    "whatNumber": "15"
   },
   {
-    "page": "23",
-    "number": "./img/ms4.png",
-    "answer": "./img/4.png",
-    "whatNumber": "4"
+    "page": "4",
+    "number": "./img/p16.jpg",
+    "answer": "./img/16.png",
+    "whatNumber": "16"
   },
   {
-    "page": "24",
-    "number": "./img/m5.png",
-    "answer": "./img/5.png",
-    "whatNumber": "5"
+    "page": "5",
+    "number": "./img/el17.jpg",
+    "answer": "./img/17.png",
+    "whatNumber": "17"
   },
   {
-    "page": "25",
-    "number": "./img/k7.png",
-    "answer": "./img/7.png",
-    "whatNumber": "7"
+    "page": "6",
+    "number": "./img/sq18.jpg",
+    "answer": "./img/18.png",
+    "whatNumber": "18"
   },
   {
-    "page": "26",
-    "number": "./img/b5.png",
-    "answer": "./img/5.png",
-    "whatNumber": "5"
+    "page": "7",
+    "number": "./img/p17.jpg",
+    "answer": "./img/17.png",
+    "whatNumber": "17"
   },
   {
-    "page": "27",
-    "number": "./img/f3.png",
-    "answer": "./img/3.png",
-    "whatNumber": "3"
+    "page": "8",
+    "number": "./img/sq19.jpg",
+    "answer": "./img/19.png",
+    "whatNumber": "19"
   },
   {
-    "page": "28",
-    "number": "./img/ms5.png",
-    "answer": "./img/5.png",
-    "whatNumber": "5"
+    "page": "9",
+    "number": "./img/el15.jpg",
+    "answer": "./img/15.png",
+    "whatNumber": "15"
   },
   {
-    "page": "29",
-    "number": "./img/m6.png",
-    "answer": "./img/6.png",
-    "whatNumber": "6"
+    "page": "10",
+    "number": "./img/p18.jpg",
+    "answer": "./img/18.png",
+    "whatNumber": "18"
+  }, 
+  {
+    "page": "11",
+    "number": "./img/sq20.jpg",
+    "answer": "./img/20.png",
+    "whatNumber": "20"
   },
   {
-    "page": "30",
-    "number": "./img/b6.png",
-    "answer": "./img/6.png",
-    "whatNumber": "6"
+    "page": "12",
+    "number": "./img/el18.jpg",
+    "answer": "./img/18.png",
+    "whatNumber": "18"
+  }, 
+  {
+    "page": "13",
+    "number": "./img/p19.jpg",
+    "answer": "./img/19.png",
+    "whatNumber": "19"
+  }, 
+  {
+    "page": "14",
+    "number": "./img/el20.jpg",
+    "answer": "./img/20.png",
+    "whatNumber": "20"
+  }, 
+  {
+    "page": "15",
+    "number": "./img/sq16.jpg",
+    "answer": "./img/16.png",
+    "whatNumber": "16"
   },
   {
-    "page": "31",
-    "number": "./img/k8.png",
-    "answer": "./img/8.png",
-    "whatNumber": "8"
+    "page": "16",
+    "number": "./img/p20.jpg",
+    "answer": "./img/20.png",
+    "whatNumber": "20"
   },
   {
-    "page": "32",
-    "number": "./img/ms6.png",
-    "answer": "./img/6.png",
-    "whatNumber": "6"
-  },
+    "page": "17",
+    "number": "./img/el19.jpg",
+    "answer": "./img/19.png",
+    "whatNumber": "19"
+  }, 
   {
-    "page": "33",
-    "number": "./img/m7.png",
-    "answer": "./img/7.png",
-    "whatNumber": "7"
-  },
+    "page": "18",
+    "number": "./img/sq17.jpg",
+    "answer": "./img/17.png",
+    "whatNumber": "17"
+  }, 
   {
-    "page": "34",
-    "number": "./img/f6.png",
-    "answer": "./img/6.png",
-    "whatNumber": "6"
-  },
-  {
-    "page": "35",
-    "number": "./img/k9.png",
-    "answer": "./img/9.png",
-    "whatNumber": "9"
-  },
-  {
-    "page": "36",
-    "number": "./img/ms7.png",
-    "answer": "./img/7.png",
-    "whatNumber": "7"
-  },
-  {
-    "page": "37",
-    "number": "./img/m8.png",
-    "answer": "./img/8.png",
-    "whatNumber": "8"
-  },
-  {
-    "page": "38",
-    "number": "./img/b7.png",
-    "answer": "./img/7.png",
-    "whatNumber": "7"
-  },
-  {
-    "page": "39",
-    "number": "./img/m9.png",
-    "answer": "./img/9.png",
-    "whatNumber": "9"
-  },
-  {
-    "page": "40",
-    "number": "./img/ms8.png",
-    "answer": "./img/8.png",
-    "whatNumber": "8"
-  },
-  {
-    "page": "41",
-    "number": "./img/k10.png",
-    "answer": "./img/10.png",
-    "whatNumber": "10"
-  },
-  {
-    "page": "42",
-    "number": "./img/f7.png",
-    "answer": "./img/7.png",
-    "whatNumber": "7"
-  },
-  {
-    "page": "43",
-    "number": "./img/b8.png",
-    "answer": "./img/8.png",
-    "whatNumber": "8"
-  },
-  {
-    "page": "44",
-    "number": "./img/m10.png",
-    "answer": "./img/10.png",
-    "whatNumber": "10"
-  },
-  {
-    "page": "45",
-    "number": "./img/ms9.png",
-    "answer": "./img/9.png",
-    "whatNumber": "9"
-  },
-  {
-    "page": "46",
-    "number": "./img/f8.png",
-    "answer": "./img/8.png",
-    "whatNumber": "8"
-  },
-  {
-    "page": "47",
-    "number": "./img/f9.png",
-    "answer": "./img/9.png",
-    "whatNumber": "9"
-  },
-  {
-    "page": "48",
-    "number": "./img/m7.png",
-    "answer": "./img/7.png",
-    "whatNumber": "7"
-  },
-  {
-    "page": "48",
-    "number": "./img/b9.png",
-    "answer": "./img/9.png",
-    "whatNumber": "9"
-  },
-  {
-    "page": "28",
+    "page": "19",
     "number": "./img/win.png",
     "answer": "./img/theEnd.png",
-    "whatNumber": "5"
+    "whatNumber": "15"
   }
+  
 ]

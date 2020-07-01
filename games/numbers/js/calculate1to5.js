@@ -65,7 +65,7 @@ function createVarios(varios) { // ф-ция создания карточек �
     const pageNumber = `
     
     <a class="linkOfPage">
-      <div class="page" style="margin-bottom: 2rem; margin-right: 10px; border-width: 1px; border-style: solid; border-color: black; width: 12px; height: 12px; background-color: rgba(0, 0, 0, 0.3); border-radius: 50%;">
+      <div class="page" style="margin-bottom: 2rem; margin-right: 10px; border-width: 1px; border-style: solid; border-color: black; width: 12px; height: 12px; background-color: rgba(0, 0, 0, 0.8); border-radius: 50%;">
       </div>
     </a>
     

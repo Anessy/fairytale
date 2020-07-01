@@ -47,7 +47,7 @@ function createPage(page) { // ф-ция создания страниц в кн
   } = page; // проводим деструктуризацию page
 
   const inPage = `
-  <div class="col-8 offset-2 col-sm-6 offset-sm-0 col-md-4 offset-md-0 col-lg-3 offset-lg-0 col-xl-3 offset-xl-0">
+  <div class="col-8 col-sm-6 col-md-4 col-lg-3 col-xl-3">
     <div class="catalog-card">
       <img src="${image}" alt="${name}">
       <a href="${link}">Читати</a>
